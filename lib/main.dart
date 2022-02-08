@@ -16,13 +16,8 @@ class Catalog extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       themeMode: ThemeMode.light,
-      theme: ThemeData(
-        primarySwatch: Colors.red,
-        fontFamily: GoogleFonts.lato().fontFamily,
-        ),
-
-     // debugShowCheckedModeBanner: false,
-        
+    
+     // debugShowCheckedModeBanner: false,  
         darkTheme: ThemeData(
         brightness: Brightness.dark,
       ),
